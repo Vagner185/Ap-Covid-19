@@ -13,6 +13,7 @@ body {
     background-color: #FFFFFF;
     font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 ul {
@@ -29,12 +30,8 @@ img {
 
 /* HEADER */
 
-.menu-bg {
-    /*height: 250px*/
-}
-
 .menu-nav {
-    max-width: 1200px;
+    max-width: 1480px;
     margin: 0 auto;
     padding: 10px 0;
     display: flex;
@@ -44,21 +41,22 @@ img {
     padding: 10px 10px;     
 }
 
-.menu-list {
-    height: 36px;
+.logo {
+    padding: 5px 20px;
 }
 
-.menu-nav ul {
+.menu-list {
     display: flex;
-    /*flex-wrap: wrap;*/ 
+    height: 37px;
+    margin-top: 15px;
 }
 
 .menu-nav ul li  {
-    padding: 10px 15px;
+    padding: 5px 20px;  
 }
 
 .menu-nav ul li a {
-    color: #035755;       
+    color: #035755;    
 }
 
 .menu-nav ul .contact-button {
@@ -101,30 +99,32 @@ li .a:hover {
 }
 
 .covid-19-alert {
+    max-width: 1480px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px 0;
+    padding: 0 30px 0;
     margin: 0 auto; 
-    max-width: 1200px;   
+       
 }
 
 .covid-19-alert-info {
     /*position: absolute;*/
-    margin-top: 195px;
+    margin-top: 325px;
     width: 600px;
 }
 
 .covid-19-alert-info h1 {
-    font-size: 28px; 
+    font-size: 30px; 
     color: #FA5652 
 }
 
 .covid-19-alert-info h2 {
-    font-size: 46px;
+    font-size: 48px;
     color: #035755;
 }
 
 .covid-19-alert-info p {
+    font-size: 22px;
     margin-top: 30px;
     margin-bottom: 45px;
     line-height: 25px;
@@ -141,8 +141,8 @@ li .a:hover {
 
 .section-img {
     position: absolute;
-    left: 600px;
-    top: 115px; 
+    left: 850px;
+    top: 147px;
 }
 
 @media screen and (max-width:1100px) {
