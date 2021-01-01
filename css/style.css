@@ -103,8 +103,9 @@ li .a:hover {
 
 .covid-19-alert {
     max-width: 1480px;
+    height: 900px;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding: 0 30px 0;
     margin: 0 auto; 
        
@@ -126,15 +127,15 @@ li .a:hover {
 .covid-19-alert-info h2 {
     font-size: 52px;
     color: #035755;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     line-height: 65px;
 }
 
 .covid-19-alert-info p {
     font-size: 22px;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    line-height: 25px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    line-height: 35px;
     color: #4B4F51;
 }
 
@@ -157,25 +158,112 @@ li .a:hover {
 
 .what-is-covid-19 {
     max-width: 1480px;
+    height: 900px;
+    display: flex;
     padding: 0 30px 0;
-    margin: 0 auto;    
-}
-
-.what-is-covid-19-info {
-    position: absolute;
-    width: 648px;
-    height: 446px;
-    left: 1033px;
-    top: 1162px;
+    margin: 0 auto;  
 }
 
 .section-2-img {
-    position: absolute;
-    top:930px;
-    left: -5px;
+    /*position: absolute;*/
+    margin-left: -242px;
+    margin-top:  -100px;
     
+}
+
+.what-is-covid-19-info {
+    /*position: absolute;*/
+    margin-top: 180px;
+    margin-left: 65px;     
+}
+
+.what-is-covid-19-info h1 {
+    font-size: 29px;
+    color: #FA5652;
+    margin-bottom: 15px;
+}
+
+.what-is-covid-19-info h2 {
+    font-size: 48px;
+    color: #035755;
+    margin-bottom: 40px;  
+}
+
+.what-is-covid-19-info p {
+    font-size: 19px;
+    color: #4B4F51;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    line-height: 38px;
+}
+
+.what-is-covid-19-info a {
+   font-size: 18px;
+   text-transform: capitalize;
+   color: #FA5652;
+   background: rgba(250, 86, 82, 0.15);
+   padding: 20px 55px;
+   border-radius: 40px;
+   font-weight: 600;
+}
+
+/* section 3*/
+
+.covid-19 {
+    max-width: 1480px;
+    height: 700px;
+    padding: 0 30px 0;
+    margin: 0 auto;
+}
+
+.covid-19-info {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.covid-19-info p {
+    font-size: 18px;
+}
+
+.imagens-3 {
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.imagens-3 .i {
+    margin-top: 105px;
+    padding: 30px 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+}   
+
+.imagens-3 .i-0 {
+    margin-top: 60px;
+    padding: 30px 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.imagens-3 .c {
+    margin-top: 100px;
+    padding: 30px 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+.imagens-3 .i:hover, .i-0:hover, .c:hover {
+    border-bottom: solid 5px;
 
 }
+
+.imagens-3 .i p, .imagens-3 .c p, .imagens-3 .i-0 p {
+    margin-top: 60px;
+    margin-bottom: 35px; 
+}
+
 
 @media screen and (max-width:1100px) {
 
@@ -183,6 +271,7 @@ li .a:hover {
         margin-top: 70px;
         transition: .4s;
     } 
+
 }
 
 @media screen and (max-width: 990px) {
