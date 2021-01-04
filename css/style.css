@@ -152,6 +152,7 @@ li .a:hover {
     position: absolute;
     left: 863px;
     top: 147px;
+    
 }
 
 /*section 2*/
@@ -161,20 +162,18 @@ li .a:hover {
     height: 900px;
     display: flex;
     padding: 0 30px 0;
-    margin: 0 auto;  
+    margin: 0 auto;
+      
 }
 
 .section-2-img {
-    /*position: absolute;*/
-    margin-left: -242px;
-    margin-top:  -100px;
-    
+    margin-left: -250px;
+    margin-top:  -90px;
 }
 
 .what-is-covid-19-info {
-    /*position: absolute;*/
     margin-top: 180px;
-    margin-left: 65px;     
+    margin-left: 55px;     
 }
 
 .what-is-covid-19-info h1 {
@@ -184,7 +183,7 @@ li .a:hover {
 }
 
 .what-is-covid-19-info h2 {
-    font-size: 48px;
+    font-size: 50px;
     color: #035755;
     margin-bottom: 40px;  
 }
@@ -222,14 +221,34 @@ li .a:hover {
     margin-top: -100px;
 }
 
+.covid-19-info h1 {
+    color: #FA5652;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+.covid-19-info h2 {
+    color: #035755;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
 .covid-19-info p {
     font-size: 18px;
+    color: #4B4F51;
+    line-height: 30px;
 }
 
 .imagens-3 {
     margin: 0 auto;
-    display: flex;
-    
+    display: flex;  
+}
+
+.imagens-3 h1 {
+    color: #035755;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 60px;
 }
 
 .imagens-3 .i {
@@ -253,31 +272,81 @@ li .a:hover {
     margin-right: 8px;
 }
 
-
 .imagens-3 .i:hover, .i-0:hover, .c:hover {
-    border-bottom: solid 5px;
-
+    border-bottom: solid 7px #FA5652;
+    /*border-radius: 0px 0px 100px 100px;*/
 }
 
 .imagens-3 .i p, .imagens-3 .c p, .imagens-3 .i-0 p {
-    margin-top: 60px;
-    margin-bottom: 35px; 
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: 30px;  
 }
 
+.virus-rosa {
+    position: absolute;
+    margin-left: -840px;
+    margin-top: 370px;
+}
 
-@media screen and (max-width:1100px) {
+/*section 4*/
+
+.covid-19-2 {
+    max-width: 1480px;
+    height: 700px;
+    padding: 0 30px 0;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.covid-19-2-info h1 {
+    font-size: 29px;
+    color: #FA5652;
+    margin-bottom: 20px;
+}
+
+.covid-19-2-info h2 {
+    font-size: 50px;
+    color: #035755;
+    margin-bottom: 30px; 
+}
+
+.covid-19-2-info p {
+    font-size: 18px;
+    color: #4B4F51;
+    line-height: 30px;
+}
+
+/*Section 5*/
+
+.covid-19-3 {
+
+}
+
+@media screen and (max-width:1725px) {
 
     .covid-19-alert-info {
-        margin-top: 70px;
+        margin-top: 200px;
         transition: .4s;
-    } 
+    }
+
+    .section-img {
+        left: 800px;
+    }
+
+    .section-2-img {
+        margin-left: -220px;
+        
+    }
 
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1500px) {
     
     .section-img {
-        display: none;
+        left: 700px;
+        top: 250px;
     }
 
     .covid-19-alert-info {
@@ -291,6 +360,12 @@ li .a:hover {
     .menu-nav {
         flex-direction: column;
         padding: 15px 24px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .section-img {
+        display: none;
     }
 }
 
@@ -313,7 +388,7 @@ li .a:hover {
         padding-top: 70px;
         background-image: url(../img/path1470\ \(3\)\ -\ Copia.png);
         background-repeat: no-repeat;
-        background-position: left  300px; 
+        background-position: left  300px;
     }
 
     .virus {
