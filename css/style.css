@@ -234,7 +234,7 @@ li .a:hover {
 .covid-19-info h2 {
     color: #035755;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 50px; 
 }
 
 .covid-19-info p {
@@ -257,7 +257,7 @@ li .a:hover {
 .imagens-3 h1 {
     color: #035755;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 550;
     margin-top: 60px;
 }
 
@@ -288,19 +288,19 @@ li .a:hover {
     text-align: center;
 }
 
-.covid-19-2-info h1 {
+.covid-19-2 h1 {
     font-size: 29px;
     color: #FA5652;
     margin-bottom: 20px;
 }
 
-.covid-19-2-info h2 {
+.covid-19-2 h2 {
     font-size: 50px;
     color: #035755;
     margin-bottom: 30px; 
 }
 
-.covid-19-2-info p {
+.covid-19-2 p {
     font-size: 18px;
     color: #4B4F51;
     line-height: 30px;
@@ -323,32 +323,75 @@ li .a:hover {
 .covid-19-3 {
     text-align: center;
     max-width: 1480px;
-    margin: 0 auto;
+    height: 2700px;
     padding: 0 30px 0;
+    margin: 0 auto;
 }
 
-.img-text1 {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+.covid-19-3-info {
+    margin-bottom: 75px;
 }
 
-.img-text2 {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+.covid-19-3 h1 {
+    color: #FA5652;
+    margin-bottom: 20px;
+    font-size: 29px;
 }
 
-.img-text3 {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+.covid-19-3 h2 {
+    color: #035755;
+    margin-bottom: 30px;
+    font-size: 50px; 
 }
 
-.img-text4 {
+.covid-19-3 p {
+    font-size: 18px;
+    color: #4B4F51;
+    line-height: 30px;
+}
+
+.img-text {
     text-align: left;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img-text h1 {
+    font-size: 45px;
+    color: #035755;
+}
+
+.img-text .wm {
+    display: flex;
+    width: 800px; 
+}
+
+.img-text .wyh {
+    display: flex;
+    width: 800px;
+    margin-left: 170px;
+}
+
+.img-text .unr {
+    display: flex;
+    width: 900px;
+}
+
+.img-text .ac {
+    display: flex;
+    width: 800px;
+    margin-left: 140px;
+}
+
+.wm .n-01, .wyh .n-02, .unr .n-03, .ac .n-04 {
+   padding: 15px;
+   background:#FEE6E5;
+   border-radius: 50%;
+   margin-right: 40px;
+   margin-top: -12px;
+   font-size: 44px;
+   color: #FA5652;
 }
 
 @media screen and (max-width: 1500px) {
