@@ -396,6 +396,10 @@ li .a:hover {
 
 @media screen and (max-width: 1500px) {
     
+    .imagens-3 .img3 {
+    box-shadow: none;
+    }
+    
     .section-img {
         left: 700px;
         top: 250px;
