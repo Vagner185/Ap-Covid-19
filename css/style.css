@@ -24,9 +24,9 @@ a {
     text-decoration: none;
 }
 
-img {
+/*img {
     max-width: 100%;
-}
+}*/
 
 /* HEADER */
 
@@ -43,6 +43,8 @@ img {
 
 .logo {
     padding: 5px 20px;
+    max-width: 232px;
+    width: 100%;
 }
 
 .menu-list {
@@ -105,14 +107,11 @@ li .a:hover {
     max-width: 1480px;
     height: 900px;
     display: flex;
-    /*flex-wrap: wrap;*/
     padding: 0 30px 0;
-    margin: 0 auto; 
-       
+    margin: 0 auto;      
 }
 
 .covid-19-alert-info {
-    /*position: absolute;*/
     margin-top: 325px;
     width: 650px;
 }
@@ -120,8 +119,7 @@ li .a:hover {
 .covid-19-alert-info h1 {
     font-size: 32px; 
     color: #FA5652;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;   
 }
 
 .covid-19-alert-info h2 {
@@ -135,7 +133,7 @@ li .a:hover {
     font-size: 22px;
     margin-top: 25px;
     margin-bottom: 80px;
-    line-height: 35px;
+    line-height: 40px;
     color: #4B4F51;
 }
 
@@ -154,23 +152,29 @@ li .a:hover {
     top: 147px;  
 }
 
+.section-img img {
+    max-width: 1040px;
+    width: 100%;
+}
+
 /*section 2*/
 
 .what-is-covid-19 {
-    max-width: 1480px;
+    max-width: 1600px;
     height: 790px;
     display: flex;
     margin: 0 auto;   
 }
 
-.section-2-img {
-    margin-left: -210px;
-    margin-top:  -100px;
+.section-2-img img {
+    max-width: 691px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .what-is-covid-19-info {
     margin-top: 150px;
-    margin-left: 55px;
+    margin-left: 170px;
     width: 680px;  
 }
 
@@ -191,7 +195,7 @@ li .a:hover {
     color: #4B4F51;
     margin-top: 30px;
     margin-bottom: 70px;
-    line-height: 38px;
+    line-height: 40px;
 }
 
 .what-is-covid-19-info a {
@@ -204,16 +208,26 @@ li .a:hover {
    font-weight: 600;
 }
 
-.v-rosa-maior {
-    position: absolute;
-    margin-left: 705px;
-    margin-top: -210px;
-}
-
-.v-rosa-pequeno {
+.v-maior {
     position: absolute;
     margin-left: 680px;
+    margin-top: -210px;  
+}
+
+.v-maior img {
+    max-width: 210px;
+    width: 100%;
+}
+
+.v-menor {
+    position: absolute;
+    margin-left: 655px;
     margin-top: 70px;
+}
+
+.v-menor img {
+    max-width: 187px;
+    width: 100%;
 }
 
 /* section 3 */
@@ -240,18 +254,19 @@ li .a:hover {
 .covid-19-info p {
     font-size: 18px;
     color: #4B4F51;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .imagens-3 {
     display: flex;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .img3 {
     margin: 0 25px;
     width: 460px;
-    height: 510px;
+    height: 535px;
+    padding: 25px;
 }
 
 .imagens-3 h1 {
@@ -271,10 +286,14 @@ li .a:hover {
     transition: .4s;
 }
 
+.img3 img {
+    max-width: 100%;
+}
+
 .virus-rosa {
     position: absolute;
     margin-left: -855px;
-    margin-top: 330px;
+    margin-top: 355px;
 }
 
 /* section 4 */
@@ -284,7 +303,7 @@ li .a:hover {
     height: 1200px;
     padding: 0 30px 0;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 190px;
     text-align: center;
 }
 
@@ -303,7 +322,7 @@ li .a:hover {
 .covid-19-2 p {
     font-size: 18px;
     color: #4B4F51;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .petala-menor {
@@ -312,13 +331,18 @@ li .a:hover {
     margin-top: 535px;
 }
 
+.symptomps {
+    max-width: 1171px;
+    width: 100%;
+}
+
 .petala-maior {
     position: absolute;
     margin-left: 1390px;
     margin-top: -150px;
 }
 
-/*Section 5 */
+/* Section 5 */
 
 .covid-19-3 {
     text-align: center;
@@ -347,7 +371,7 @@ li .a:hover {
 .covid-19-3 p {
     font-size: 18px;
     color: #4B4F51;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .img-text {
@@ -360,6 +384,10 @@ li .a:hover {
 .img-text h1 {
     font-size: 45px;
     color: #035755;
+}
+
+.img-text img {
+    max-width: 100%;
 }
 
 .img-text .wm {
@@ -394,7 +422,143 @@ li .a:hover {
    color: #FA5652;
 }
 
-@media screen and (max-width: 1500px) {
+/* Section 6 */
+
+.reports {
+    max-width: 1530px;
+    margin: 0 auto;
+}
+
+.map-reports {
+    display: flex;
+}
+
+.reports-list {
+    margin-left: 100px;  
+}
+
+.reports-list h1 {
+    margin-bottom: 50px;
+    color: #035755;
+    font-size: 48px;
+}
+
+.reports-list li {
+    margin-top: 20px;
+}
+
+.mapa img {
+    max-width: 998px;
+    width: 100%;
+}
+
+.question {
+    width: 800px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.question h1 {
+    text-align: center;
+    color: #0C6C44;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.question .send {
+    max-width: 790px;
+    height: 114px;
+    color: #758681;
+    font-size: 22px;
+}
+
+.send input {
+    width: 570px;
+    height: 75px;
+    font-size: 22px;
+    border: none;
+    outline: 0;
+}
+
+.question a {
+    border-radius: 50px;
+    padding: 26px 80px;
+    color: white;
+    background-color: #F44A45;
+    font-weight: 600;
+}
+
+.v-maior-6 {
+    position: absolute;
+    margin-left: 1515px;
+    margin-top: -360px;
+}
+
+.v-maior-6 img {
+    max-width: 202px;
+    width: 100%;
+}
+
+.v-menor-6 { 
+    position: absolute;
+    margin-left: 1360px;
+    margin-top: -430px;
+}
+
+.v-menor-6 img {
+    max-width: 153px;
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    max-width: 1480px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-menu a {
+    margin-left: 60px;
+    font-size: 22px;
+    color: #00402E;
+}
+
+.all {
+    position: absolute;
+    font-size: 22px;
+    margin-top: 100px;
+    margin-left: 140px;
+    color: #415E56;
+}
+
+.r-sociais {
+    display: flex;
+}
+
+.r-sociais i {
+    margin-left: 40px;
+    font-size: 22px;
+    color: #035755;
+}
+
+.youtube i {
+    color: #F44A45;
+}
+
+
+
+@media screen and (max-width: 1679px) {
     
     .section-img {
         left: 700px;
@@ -409,10 +573,6 @@ li .a:hover {
         margin-bottom: 20px;  
     } 
 
-    .menu-nav {
-        flex-direction: column;
-        padding: 15px 24px;
-    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -422,6 +582,20 @@ li .a:hover {
 }
 
 @media screen and (max-width: 595px) {
+
+    .imagens-3 {
+        flex-wrap: wrap;
+    }
+
+    .imagens-3 .img3 {
+        box-shadow: none;
+    }
+
+    .imagens-3 .img3:hover {
+        border-bottom: none;
+        border-radius: 5px;
+        transition: .4s; 
+    }
 
     .logo {
         margin-left: -60px;
@@ -438,7 +612,7 @@ li .a:hover {
         transition: all .3s;
         flex-direction: column;
         padding-top: 70px;
-        background-image: url(../img/path1470\ \(3\)\ -\ Copia.png);
+        background-image: url(../img/menu-list@media.png);
         background-repeat: no-repeat;
         background-position: left  300px;
     }
