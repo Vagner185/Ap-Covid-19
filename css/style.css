@@ -84,11 +84,6 @@ li .a:hover {
     color: tomato;
 }
 
-.virus {
-    position: absolute;
-    display: none;
-}
-
 #check {
     display: none;   
 }
@@ -390,6 +385,12 @@ li .a:hover {
     max-width: 100%;
 }
 
+.maior-section-5 {
+    position: absolute;
+    margin-left: -240px;
+    margin-top: 190px; 
+}
+
 .img-text .wm {
     display: flex;
     width: 800px; 
@@ -410,6 +411,17 @@ li .a:hover {
     display: flex;
     width: 800px;
     margin-left: 140px;
+}
+
+.menor-section-5 {
+    position: absolute;  
+    margin-left: 1495px;
+    margin-top: -500px;
+}
+
+.v-vermelhor-5 {
+    position: absolute;
+    margin-left: 1495px;
 }
 
 .wm .n-01, .wyh .n-02, .unr .n-03, .ac .n-04 {
@@ -433,23 +445,40 @@ li .a:hover {
     display: flex;
 }
 
-.reports-list {
-    margin-left: 100px;  
-}
-
-.reports-list h1 {
-    margin-bottom: 50px;
-    color: #035755;
-    font-size: 48px;
-}
-
-.reports-list li {
-    margin-top: 20px;
-}
-
 .mapa img {
     max-width: 998px;
     width: 100%;
+}
+
+.reports-list {
+    width: 370px;
+    margin-left: 100px;
+    margin-top: 10px;  
+}
+
+.paises {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 24px;
+     color: #035755;
+     margin-top: 40px;
+}
+
+.paises ul {
+    display: flex;
+    font-size: 31px;
+    color: #13615F;
+}
+
+.paises ul div {
+    margin-left: 30px;
+}
+
+.reports-list h1 {
+    margin-bottom: 60px;
+    color: #035755;
+    font-size: 48px;
 }
 
 .question {
@@ -557,7 +586,6 @@ footer {
 }
 
 
-
 @media screen and (max-width: 1679px) {
     
     .section-img {
@@ -597,10 +625,6 @@ footer {
         transition: .4s; 
     }
 
-    .logo {
-        margin-left: -60px;
-    }
-
     .menu-list {
         position: absolute;
         width: 100%;
@@ -615,11 +639,6 @@ footer {
         background-image: url(../img/menu-list@media.png);
         background-repeat: no-repeat;
         background-position: left  300px;
-    }
-
-    .virus {
-        display: block;
-        padding-left: 400px;
     }    
 
     .menu-list li .contact-button {
