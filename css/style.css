@@ -48,7 +48,6 @@ a {
 .logo {
     padding: 5px 20px;
     max-width: 232px;
-    width: 100%;
 }
 
 .menu-list {
@@ -359,19 +358,19 @@ li .a:hover {
 .covid-19-3 h1 {
     color: #FA5652;
     margin-bottom: 20px;
-    font-size: 29px;
+    font-size: 2.9rem;
 }
 
 .covid-19-3 h2 {
     color: #035755;
     margin-bottom: 30px;
-    font-size: 50px; 
+    font-size: 5.0rem; 
 }
 
 .covid-19-3 p {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #4B4F51;
-    line-height: 40px;
+    line-height: 4.0rem;
 }
 
 .img-text {
@@ -382,7 +381,7 @@ li .a:hover {
 }
 
 .img-text h1 {
-    font-size: 45px;
+    font-size: 4.5rem;
     color: #035755;
 }
 
@@ -434,8 +433,8 @@ li .a:hover {
    background:#FEE6E5;
    border-radius: 50%;
    margin-right: 40px;
-   margin-top: -12px;
-   font-size: 44px;
+   margin-top: -14px;
+   font-size: 4.4rem;
    color: #FA5652;
 }
 
@@ -595,22 +594,31 @@ footer {
     
     .section-img {
         left: 700px;
-        top: 250px;
     }
 
-    .covid-19-alert-info {
-        margin-top: 90px;  
-    }
-
-    .logo {
-        margin-bottom: 20px;  
-    } 
 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1366px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .covid-19-alert-info {
+        margin-top: 250px;
+    }
+
     .section-img {
-        display: none;
+        left: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    html {
+       font-size: 40%; 
     }
 }
 
@@ -629,8 +637,10 @@ footer {
 
     /* section 1 */
 
+
     .covid-19-alert-info {
         text-align: center;
+        margin-top: 90px;
     }
 
     .covid-19-alert-info h1 {
@@ -707,7 +717,7 @@ footer {
     }
 
     .imagens-3 .img3 {
-        box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.15);
         margin: 20px 0 0 0;
         height: 490px;
     }
@@ -743,6 +753,74 @@ footer {
     }
 
     /* Section 5 */
+
+    .covid-19-3-info {
+        margin-top: -600px;
+    }
+
+    .covid-19-3-info h1 {
+        font-size: min(5.5vw);
+    }
+
+    .covid-19-3-info h2 {
+        font-size: min(6.5vw);
+    }
+
+    .covid-19-3-info p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .img-text {
+        text-align:center;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .img-text img {
+        order: +1;
+    }
+
+    .img-text  p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .img-text h1 {
+        font-size: min(6.5vw);
+    }
+
+    .img-text .wm,
+    .img-text .wyh,
+    .img-text .unr,
+    .img-text .ac {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .i-t-numbers {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .wm .n-01, .wyh .n-02, .unr .n-03, .ac .n-04 {
+        margin:0 auto;
+    }
+
+    /* Section 6 */
+
+    
+
+
+
+
+
+
+
+
 
     .menu-list {
         position: absolute;
