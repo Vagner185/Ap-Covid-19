@@ -762,6 +762,7 @@ footer {
 
     /* Section 5 */
 
+
     .covid-19-3-info {
         margin-top: -600px;
     }
@@ -818,11 +819,16 @@ footer {
         margin:0 auto;
     }
 
+    .maior-section-5 {
+        display: none;
+    }
+
     /* Section 6 */
+
 
     .map-reports {
         display: block;
-        margin-top: 500px;
+        margin-top: 800px;
     }
 
     .reports-list {
@@ -844,7 +850,7 @@ footer {
    }
 
     .question {
-        width: 300px;
+        width: 400px;
         height: 330px;
         margin-top: 50px;
         margin-bottom: 150px;
@@ -860,6 +866,7 @@ footer {
     .question .send {
         max-width: 100%;
         height: 125px;
+        margin: 0 50px;
     }
 
     .send input {
@@ -961,6 +968,8 @@ footer {
     }
 
 }
+
+
 
 
 
