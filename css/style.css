@@ -45,9 +45,16 @@ a {
     padding: 10px 10px;     
 }
 
+.log-img {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0px 20px;
+}
+
 .logo {
-    padding: 5px 20px;
-    max-width: 232px;
+    
+    max-width: 100%;
+    
 }
 
 .menu-list {
@@ -464,15 +471,16 @@ li .a:hover {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     font-size: 24px;
+     font-size: 2.4rem;
      color: #035755;
      margin-top: 40px;
 }
 
 .paises ul {
     display: flex;
-    font-size: 31px;
+    font-size: 3.1rem;
     color: #13615F;
+    align-items: center;
 }
 
 .paises ul div {
@@ -482,7 +490,7 @@ li .a:hover {
 .reports-list h1 {
     margin-bottom: 60px;
     color: #035755;
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 .question {
@@ -496,7 +504,7 @@ li .a:hover {
 .question h1 {
     text-align: center;
     color: #0C6C44;
-    font-size: 64px;
+    font-size: 6.4rem;
     margin-bottom: 100px;
 }
 
@@ -504,20 +512,20 @@ li .a:hover {
     max-width: 790px;
     height: 114px;
     color: #758681;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .send input {
     width: 570px;
     height: 75px;
-    font-size: 22px;
+    font-size: 2.2rem;
     border: none;
     outline: 0;
 }
 
-.question a {
+.send a {
     border-radius: 50px;
-    padding: 26px 80px;
+    padding: 2.6rem 8.0rem;
     color: white;
     background-color: #F44A45;
     font-weight: 600;
@@ -622,7 +630,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 450px) {
 
     html {
         font-size: 50%;
@@ -812,6 +820,67 @@ footer {
 
     /* Section 6 */
 
+    .map-reports {
+        display: block;
+        margin-top: 500px;
+    }
+
+    .reports-list {
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .reports-list h1 {
+        font-size: min(6.5vw);
+    }
+
+    .paises {
+        margin-top: 20px;
+    }
+
+    .paises, .paises ul {
+        font-size: 2.4rem;
+   }
+
+    .question {
+        width: 300px;
+        height: 330px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .question h1 {
+        text-align: center;
+        color: #0C6C44;
+        font-size: min(6.5vw);
+        margin-bottom: 10px;
+    }
+
+    .question .send {
+        max-width: 100%;
+        height: 125px;
+    }
+
+    .send input {
+        width: 250px;
+        height: 50px;
+        margin: 0 40px;
+        margin-bottom: 20px;
+    }
+
+    .send a {
+        margin: 0 65px; 
+    }
+
+    /* footer */
+
+    footer {
+        display: block;
+    }
+
+
+
     
 
 
@@ -836,7 +905,9 @@ footer {
         background-image: url(../img/menu-list@media.png);
         background-repeat: no-repeat;
         background-position: left  300px;
-    }    
+    } 
+    
+    
 
     .menu-list li .contact-button {
         line-height: 50px;
