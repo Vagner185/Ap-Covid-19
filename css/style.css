@@ -877,7 +877,37 @@ footer {
 
     footer {
         display: block;
+        margin-top: -200px;  
     }
+
+    .footer-menu {
+        display: block; 
+    }
+
+    .footer-menu li {
+        margin-top: 10px;
+    }
+
+    .footer-menu a {
+        margin-left: 0; 
+    }
+
+    .r-sociais i  {
+        margin: 15px auto;
+        margin-right: 30px;
+    }
+
+    .all {
+        position: absolute;
+        font-size: 1.9rem;
+        margin-top: 100px;
+        margin-left: 0;
+        color: #415E56;
+    }
+
+    
+
+
 
 
 
