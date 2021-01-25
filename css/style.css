@@ -51,10 +51,16 @@ a {
     margin: 5px 0px 0px 20px;
 }
 
-.logo {
-    
-    max-width: 100%;
-    
+.log-img .lgo {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 3px;
+    color:#035755;
+}
+
+.logo { 
+    max-width: 100%; 
 }
 
 .menu-list {
@@ -263,7 +269,7 @@ li .a:hover {
     line-height: 4.0rem;
 }
 
-.imagens-3 {
+.cards {
     display: flex;
     margin-top: 130px;
 }
@@ -275,18 +281,18 @@ li .a:hover {
     padding: 25px;
 }
 
-.imagens-3 h1 {
+.cards h1 {
     color: #035755;
     font-size: 3.6rem;
     font-weight: 550;
     margin-top: 60px;
 }
 
-.imagens-3 .img3 {
+.cards .img3 {
     box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.15);
 }
 
-.imagens-3 .img3:hover {
+.cards .img3:hover {
     border-bottom: solid 7px #FA5652;
     border-radius: 5px;
     transition: .4s;
@@ -449,11 +455,12 @@ li .a:hover {
 
 .reports {
     max-width: 1530px;
-    margin: 0 auto;
+    margin: 200px auto;
 }
 
 .map-reports {
     display: flex;
+    margin-top: -150px;
 }
 
 .mapa img {
@@ -645,7 +652,6 @@ footer {
 
     /* section 1 */
 
-
     .covid-19-alert-info {
         text-align: center;
         margin-top: 90px;
@@ -715,22 +721,22 @@ footer {
         line-height: 25px;
     }
 
-    .imagens-3 {
+    .cards {
         flex-wrap: wrap;
         margin-top: 50px;
     }
 
-    .imagens-3 h1 {
+    .cards h1 {
         font-size: min(6.5vw);
     }
 
-    .imagens-3 .img3 {
+    .cards .img3 {
         box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.15);
         margin: 20px 0 0 0;
         height: 490px;
     }
 
-    .imagens-3 .img3:hover {
+    .cards .img3:hover {
         border-bottom: none;
         border-radius: 5px;
         transition: .4s; 
@@ -761,7 +767,6 @@ footer {
     }
 
     /* Section 5 */
-
 
     .covid-19-3-info {
         margin-top: -600px;
@@ -825,10 +830,13 @@ footer {
 
     /* Section 6 */
 
-
     .map-reports {
         display: block;
         margin-top: 500px;
+    }
+
+    .mapa {
+        display: none;
     }
 
     .reports-list {
@@ -872,12 +880,12 @@ footer {
     .send input {
         width: 250px;
         height: 50px;
-        margin-left: 40px;
-        margin-bottom: 20px;
+        margin: 0 25px;
+        margin-bottom: 30px;
     }
 
     .send a {
-        margin: 0 65px; 
+        margin: 0 60px; 
     }
 
     /* footer */
