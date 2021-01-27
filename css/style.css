@@ -422,8 +422,7 @@ li .a:hover {
 
 .img-text .wyh {
     display: flex;
-    width: 800px;
-    
+    width: 800px; 
 }
 
 .img-text .unr {
@@ -738,7 +737,7 @@ footer {
 
     /* Section 2 */
 
-    .section-2-img img {
+    .section-2-img {
         display: none;
     }
 
@@ -857,6 +856,10 @@ footer {
 
     .img-text .mask2, .mask4 {
         order: +1;
+    }
+
+    .mask2, .mask4 {
+        width: 100%;
     }
 
     .img-text  p {
