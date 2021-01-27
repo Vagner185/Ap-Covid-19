@@ -280,9 +280,9 @@ li .a:hover {
 
 .img3 {
     margin: 0 30px;
-    width: 460px;
+    width: 30%;
     height: 535px;
-    padding: 25px;
+    padding-top: 25px;
 }
 
 .cards h1 {
@@ -585,14 +585,14 @@ footer {
 }
 
 .footer-menu a {
-    margin-left: 60px;
-    font-size: 22px;
+    padding-left: 7.0rem;
+    font-size: 2.2rem;
     color: #00402E;
 }
 
 .all {
     position: absolute;
-    font-size: 22px;
+    font-size: 2.2rem;
     margin-top: 100px;
     margin-left: 140px;
     color: #415E56;
@@ -624,7 +624,7 @@ footer {
 @media screen and (max-width: 1366px) {
 
     html {
-        font-size: 55%;
+        font-size: 53%;
     }
 
     .covid-19-alert-info {
@@ -637,26 +637,27 @@ footer {
 
 }
 
-@media screen and (max-width: 1229px) {
+@media screen and (max-width: 1144px) {
 
     html {
-        
+       
     }
 
     .img3 {
-    margin: 0 30px;
-    width: 460px;
-    height: 535px;
-    padding: 25px;
-}
+       
+    }
+
+    .reports-list {
+        
+    }
 
 }
 
 @media screen and (max-width: 1100px) {
 
-    html {
+    /*html {
        font-size: 50%; 
-    }
+    }*/
 
     /* Section 1 */
 
