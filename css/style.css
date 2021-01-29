@@ -116,15 +116,15 @@ li .a:hover {
 
 .covid-19-alert {
     max-width: 1480px;
-    height: 900px;
     display: flex;
     padding: 0 30px 0;
-    margin: 0 auto;      
+    margin: 0 auto;   
 }
 
 .covid-19-alert-info {
     margin-top: 325px;
     width: 650px;
+    height: 600px;
 }
 
 .covid-19-alert-info h1 {
@@ -172,9 +172,9 @@ li .a:hover {
 
 .what-is-covid-19 {
     max-width: 1600px;
-    height: 790px;
     display: flex;
-    margin: 0 auto;   
+    margin: 0 auto;
+    margin-bottom: 90px;   
 }
 
 .section-2-img {
@@ -189,7 +189,7 @@ li .a:hover {
 
 .what-is-covid-19-info {
     margin-top: 150px;
-    margin-left: 20px;
+    margin-left: 30px;
     width: 680px;  
 }
 
@@ -249,7 +249,6 @@ li .a:hover {
 
 .covid-19 {
     max-width: 1480px;
-    height: 850px;
     margin: 0 auto; 
     text-align: center;
 }
@@ -280,7 +279,7 @@ li .a:hover {
 
 .img3 {
     margin: 0 30px;
-    width: 30%;
+    width: 450px;
     height: 535px;
     padding-top: 25px;
 }
@@ -316,10 +315,10 @@ li .a:hover {
 
 .covid-19-2 {
     max-width: 1480px;
-    height: 1200px;
     padding: 0 30px 0;
     margin: 0 auto;
     margin-top: 190px;
+    margin-bottom: 150px;
     text-align: center;
 }
 
@@ -365,6 +364,7 @@ li .a:hover {
     max-width: 1480px;
     padding: 0 30px 0;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .covid-19-3-info {
@@ -461,14 +461,13 @@ li .a:hover {
 
 .reports {
     max-width: 1530px;
-    margin: 200px auto;
+    margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .map-reports {
     display: flex;
-    margin-top: -150px;
     margin-right: 20px;
-    
 }
 
 .mapa img {
@@ -510,10 +509,9 @@ li .a:hover {
 
 .question {
     width: 800px;
-    height: 330px;
+    height: 350px;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 150px;
 }
 
 .question h1 {
