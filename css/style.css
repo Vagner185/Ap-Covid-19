@@ -70,18 +70,18 @@ a {
 }
 
 .menu-nav ul li  {
-    padding: 5px 20px;  
+    padding: 0.5rem 2.0rem;  
 }
 
 .menu-nav ul li a {
     color: #035755;
-    font-size: 18px;   
+    font-size: 1.8rem;   
 }
 
 .menu-nav ul .contact-button {
     border: 2px solid #fb4c47;
     color: #FF383D;
-    padding: 15px 40px;
+    padding: 1.5rem 4.0rem;
     border-radius: 30px;
     font-weight: 700;   
 }
@@ -118,7 +118,7 @@ li .a:hover {
     max-width: 1480px;
     display: flex;
     padding: 0 30px 0;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .covid-19-alert-info {
@@ -159,8 +159,9 @@ li .a:hover {
 
 .section-img {
     position: absolute;
-    left: 863px;
-    top: 147px;  
+    right: 0;
+    top: 147px;
+    width: 54%; 
 }
 
 .section-img img {
@@ -433,7 +434,6 @@ li .a:hover {
 .img-text .ac {
     display: flex;
     width: 800px;
-    
 }
 
 .menor-section-5 {
@@ -509,7 +509,6 @@ li .a:hover {
 
 .question {
     width: 800px;
-    height: 350px;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -518,29 +517,29 @@ li .a:hover {
     text-align: center;
     color: #0C6C44;
     font-size: 6.4rem;
-    margin-bottom: 100px;
 }
 
-.question .send {
-    max-width: 790px;
-    height: 114px;
+.send {
+    width: 800px;
     color: #758681;
     font-size: 2.2rem;
+    margin-top: 100px;
 }
 
 .send input {
-    width: 570px;
-    height: 75px;
+    width: 550px;
+    height: 80px;
     font-size: 2.2rem;
     border: none;
     outline: 0;
 }
 
 .send a {
+    font-size: 2.2rem;
     border-radius: 50px;
-    padding: 2.6rem 8.0rem;
+    padding: 3.0rem 9.0rem;
     color: white;
-    background-color: #F44A45;
+    background: #F44A45;
     font-weight: 600;
 }
 
@@ -578,8 +577,14 @@ footer {
     margin-bottom: 100px;
 }
 
+.logo-f {
+    height: 70px;
+}
+
 .footer-menu {
     display: flex;
+    height: 30px; 
+    align-items: center; 
 }
 
 .footer-menu a {
@@ -591,7 +596,7 @@ footer {
 .all {
     position: absolute;
     font-size: 2.2rem;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 140px;
     color: #415E56;
 }
@@ -602,7 +607,7 @@ footer {
 
 .r-sociais i {
     margin-left: 40px;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #035755;
 }
 
@@ -613,9 +618,7 @@ footer {
 
 @media screen and (max-width: 1679px) {
     
-    .section-img {
-        left: 745px;
-    }
+    
 
 }
 
@@ -629,16 +632,13 @@ footer {
         margin-top: 250px;
     }
 
-    .section-img {
-        left: 600px;
-    }
 
 }
 
-@media screen and (max-width: 1144px) {
+@media screen and (max-width: 1220px) {
 
     html {
-       
+        font-size: 48%;
     }
 
     .img3 {
@@ -663,13 +663,10 @@ footer {
         margin-top: 140px;
     }
 
-    .section-img {
-        left: 550px;
-    }
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 
     html {
         font-size: 50%;
@@ -681,7 +678,7 @@ footer {
         position: absolute;
         width: 100%;
         height: 570px;
-        left: -595px;
+        left: -600px;
         background: white;
         top: 115px;
         text-align: center;
@@ -714,9 +711,14 @@ footer {
 
     /* section 1 */
 
+    .section-img {    
+        display: none;  
+    }
+
     .covid-19-alert-info {
         text-align: center;
         margin-top: 90px;
+        height: 450px;
     }
 
     .covid-19-alert-info h1 {
@@ -725,7 +727,7 @@ footer {
      
     .covid-19-alert-info h2 {
         font-size: min(6.5vw);
-        line-height: 30px;
+        line-height: 5.8rem;
         margin-bottom: 20px;
     }
 
@@ -733,6 +735,7 @@ footer {
         line-height: 25px;
         margin-bottom: 60px;
     }
+
 
     /* Section 2 */
 
@@ -743,7 +746,6 @@ footer {
     .what-is-covid-19-info {
         margin: 0 auto;
         padding: 0 30px ;
-        margin-top: -350px;
         text-align: center; 
     }
 
@@ -765,7 +767,6 @@ footer {
     /* Section 3 */
 
     .covid-19-info {
-        margin-top: -600px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -785,6 +786,7 @@ footer {
 
     .cards {
         flex-wrap: wrap;
+        margin: 0 30px;
         margin-top: 50px;
     }
 
@@ -807,7 +809,7 @@ footer {
     /* Section 4 */
 
     .covid-19-2 {
-        margin-top:1000px;
+        margin-top: 60px;
     }
 
     .covid-19-2 h1 {
@@ -831,7 +833,7 @@ footer {
     /* Section 5 */
 
     .covid-19-3 { 
-        margin-top: -600px;
+        
     }
 
     .covid-19-3-info h1 {
@@ -923,10 +925,8 @@ footer {
    }
 
     .question {
-        width: 300px;
-        height: 330px;
+        width: 100%;
         margin-top: 50px;
-        margin-bottom: 150px;
     }
 
     .question h1 {
@@ -938,7 +938,6 @@ footer {
 
     .question .send {
         max-width: 100%;
-        height: 125px;
         margin: 0 auto;
     }
 
@@ -956,8 +955,7 @@ footer {
     /* footer */
 
     footer {
-        display: block;
-        margin-top: -250px;  
+        display: block;  
     }
 
     .footer-menu {
@@ -973,8 +971,9 @@ footer {
     }
 
     .r-sociais i  {
-        margin: 15px auto;
+        margin: 0 auto;
         margin-right: 30px;
+        margin-top: 110px;
     }
 
     .all {
