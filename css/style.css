@@ -678,7 +678,7 @@ footer {
         position: absolute;
         width: 100%;
         height: 570px;
-        left: -600px;
+        left: -700px;
         background: white;
         top: 115px;
         text-align: center;
@@ -786,6 +786,7 @@ footer {
 
     .cards {
         flex-wrap: wrap;
+        justify-content: center;
         margin: 0 30px;
         margin-top: 50px;
     }
